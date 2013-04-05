@@ -5,3 +5,4 @@ Makefile.PL
 README
 dist.ini
 lib/Net/IMAP/Simple/Gmail.pm
+t/test.t

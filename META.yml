@@ -2,7 +2,8 @@
 abstract: 'Gmail specific support for Net::IMAP::Simple'
 author:
   - 'James Powell <jamespo@cpan.org>'
-build_requires: {}
+build_requires:
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -18,4 +19,4 @@ requires:
   base: 0
   strict: 0
   vars: 0
-version: 0.2
+version: 0.21

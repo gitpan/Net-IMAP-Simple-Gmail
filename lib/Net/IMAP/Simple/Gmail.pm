@@ -3,7 +3,7 @@ use Text::ParseWords;
 use strict;
 
 use vars qw[$VERSION];
-$VERSION = (qw$Revision: 0.2 $)[1];
+$VERSION = (qw$Revision: 0.21 $)[1];
 
 use base qw[Net::IMAP::Simple::SSL];
 
